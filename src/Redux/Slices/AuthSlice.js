@@ -24,7 +24,7 @@ export const createAccount = createAsyncThunk("/auth/signup", async (data) => {
         return data?.data?.message;
       },
       error: (err) => {
-        return err?.response?.data?.message || "failed to create account";
+        return err?.response?.data?.message;
       },
     });
     return (await res).data;
