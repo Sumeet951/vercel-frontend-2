@@ -59,9 +59,11 @@ const Navbar = () => {
               Sign In
             </button>
             </Link>
+            <Link to="/login">
             <button className="btn-primary">
               Get Started Free
             </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -94,12 +96,16 @@ const Navbar = () => {
                   </a>
                 ))}
                 <div className="pt-4 space-y-2">
+                  <Link to="/signup">
                   <button className="w-full text-center py-2 text-gray-700 hover:text-primary-600 font-medium">
                     Sign In
                   </button>
+                  </Link>
+                  <Link to="/login">
                   <button className="w-full btn-primary">
                     Get Started Free
                   </button>
+                  </Link>
                 </div>
               </div>
             </motion.div>
