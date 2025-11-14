@@ -31,12 +31,6 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       path: '/dashboard',
     },
     {
-      id: 'subscriptions',
-      label: 'Subscriptions',
-      icon: CreditCard,
-      path: '/subscriptions',
-    },
-    {
       id: 'analytics',
       label: 'Analytics',
       icon: BarChart3,
