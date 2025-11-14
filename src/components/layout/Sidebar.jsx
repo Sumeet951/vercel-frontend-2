@@ -173,7 +173,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
               <div className="mt-5 pt-4 border-t border-gray-700">
                 <div className="flex items-center justify-between text-sm mb-2">
                   <span className="text-gray-400">Monthly Budget</span>
-                  <span className="font-bold text-white">$234 / $500</span>
+                  <span className="font-bold text-white"></span>
                 </div>
                 
                 <div className="h-2 bg-gray-700 rounded-full overflow-hidden">
