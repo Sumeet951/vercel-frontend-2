@@ -181,7 +181,6 @@ const handleProfileUpdate = async () => {
     { id: 'profile', label: 'Profile Info', icon: User },
     { id: 'security', label: 'Security', icon: Lock },
     { id: 'notifications', label: 'Notifications', icon: Bell },
-    { id: 'billing', label: 'Billing', icon: CreditCard }
   ];
 
   return (
